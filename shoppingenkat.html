@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultat från Google Formulär</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet"> <!-- Importera Roboto och Playfair Display fonts -->
+    <style>
+        /* Bakgrund med gradient */
+        body {
+            background: linear-gradient(135deg, #ADD8E6, #80C7D1); /* Ljusblå till gråblå gradient */
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #333;
+        }
+
+        /* Container för att skapa en vit bakgrund med skugga och rundade hörn */
+        .container {
+            background-color: white;
+            margin: 50px auto;
+            padding: 30px;
+            width: 90%;
+            max-width: 1100px;
+            border-radius: 20px;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1); /* Större skugga för djup */
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif; /* Elegans med serif-font */
+            color: #003366;
+            font-size: 3.5em;
+            margin-top: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px; /* Bättre mellanrum mellan bokstäver */
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.6;
+            margin: 20px 0;
+            color: #555;
+        }
+
+        .bold-text {
+            font-weight: bold;
+        }
+
+        /* Stil för bilder */
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .image-gallery img {
+            width: 90%;
+            max-width: 550px;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animerad effekt */
+        }
+
+        /* Förstorar bilder vid hover */
+        .image-gallery img:hover {
+            transform: scale(1.05); /* Förstorar bilden vid hovring */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Länkstil (knapp) */
+        a {
+            text-decoration: none;
+            background: linear-gradient(135deg, #003366, #00509E);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-size: 18px;
+            margin-top: 30px;
+            display: inline-block;
+            transition: background 0.3s ease;
+        }
+
+        /* Ändra färg på knappen när den hovras */
+        a:hover {
+            background: linear-gradient(135deg, #00509E, #003366);
+        }
+
+        /* Responsiv design för små skärmar */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5em;
+            }
+            .image-gallery img {
+                width: 95%;
+                max-width: 90%; /* Justerar bildstorlek på små skärmar */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Rubrik på webbsidan -->
+        <h1>Konsumentbeteende: Sammanställning</h1>
+
+        <!-- Personlig introduktion -->
+        <p>Välkommen till min sida där jag delar resultaten från mitt Google Formulär! Jag har samlat in värdefull feedback från deltagarna och här är bilderna från sammanställningen.</p>
+        
+        <!-- Text för att förklara syftet med sidan -->
+        <p class="bold-text">Ta gärna en titt på bilderna nedan:</p>
+
+        <!-- Bildgalleri -->
+        <div class="image-gallery">
+            <img src="Bild1.jpg" alt="Skärmdump 1">
+            <img src="Bild2.jpg" alt="Skärmdump 2">
+            <img src="Bild3.jpg" alt="Skärmdump 3">
+            <img src="Bild4.jpg" alt="Skärmdump 4">
+            <img src="Bild5.jpg" alt="Skärmdump 5">
+        </div>
+
+        <!-- Länk till Google Formulär -->
+        <p><a href="https://gforms.app/jTXUSvP" target="_blank">Vill du bidra med dina egna svar? Klicka här för att fylla i mitt Google Formulär!</a></p>
+
+        <!-- QR-kod länk till relevant webbsida -->
+        <h2>Fördjupa dig mer</h2>
+        <p>Jag rekommenderar att du kollar på den här sidan för mer information om ämnet:</p>
+        <!-- QR-kod bild -->
+        <img src="qrbild.jpg" alt="QR-kod till webbsida" style="width: 200px; height: 200px; margin-top: 20px;">
+        <p>Skanna QR-koden för att besöka webbsidan!</p>
+
+        <!-- Reflektion om arbetet -->
+        <h2>Reflektion över arbetet</h2>
+        <p>Att skapa denna webbsida har varit både utmanande och lärorikt. När jag började med uppgiften trodde jag att det skulle vara svårt att få ihop alla element, men det har faktiskt gått bättre än jag förväntade mig. Jag har lärt mig mycket om hur HTML fungerar och hur jag kan använda CSS för att styla en sida på ett snyggt sätt. Att arbeta med bilder och att få dem att passa in i designen har också varit en utmaning, men jag känner att jag har fått ett bra resultat. En av de svåraste delarna var att skapa en QR-kod och få den att fungera korrekt på sidan. Men efter att ha testat några olika lösningar och läst på lite mer så fick jag till det. Jag ser fram emot att arbeta mer med webbsidor och förbättra mina färdigheter ytterligare!</p>
+
+    </div>
+
+</body>
+</html>
